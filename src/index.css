@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html.dark {
+    color-scheme: dark;
+  }
+  
+  /* Smooth transitions for theme switching */
+  body {
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}

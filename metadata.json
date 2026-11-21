@@ -1,0 +1,6 @@
+{
+  "name": "PAKET SINAU - CBT Ujian Online Sekolah Dasar (SD)",
+  "description": "Platform ujian berbasis komputer untuk Sekolah Dasar (SD) mata pelajaran Matematika, Bahasa Indonesia, dan IPA dengan 3 model soal interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
